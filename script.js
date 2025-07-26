@@ -12,10 +12,4 @@ window.addEventListener("scroll", () => {
 });
 
 // Initially hide sections
-window.onload = () => {
-  sections.forEach((section) => {
-    section.style.opacity = 0;
-    section.style.transform = "translateY(50px)";
-    section.style.transition = "all 0.6s ease-out";
-  });
-};
+
